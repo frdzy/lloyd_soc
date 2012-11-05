@@ -1,0 +1,14 @@
+body{
+  font-size: 10pt;
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+
+table{
+  font-size: 12pt;
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+
+.menu{
+  width: 150px;
+  vertical-align: top;
+}

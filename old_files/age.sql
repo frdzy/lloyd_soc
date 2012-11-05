@@ -1,0 +1,1 @@
+select *, birthday, age from (select id, birthday, if( birthday = '0000-00-00', 99, datediff('2012-01-08', birthday) / 365) as age from houselist where class not in ('Fr', 'So')) as a natural join names natural join ski2010 where (a.age > 22 or a.age = '0000-00-00') and lift = 'Yes';
